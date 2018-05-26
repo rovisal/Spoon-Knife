@@ -1,17 +1,19 @@
-* {
-  margin:0px;
-  padding:0px;
+.content-wrapper {
+  max-width: 1170px;
 }
 
-#octocat {
-  display: block;
-  width:384px;
-  margin: 50px auto;
+.bottom-border {
+  border-bottom: 1px solid black;
+}
+.title {
+  background-image: url("images/apple-pie.jpg");
+  width:"870px;
 }
 
-p {
-  display: block;
-  width: 400px;
-  margin: 50px auto;
-  font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
+h1 {
+  position: absolute;
+  vertical-align: middle;
+  text-align: center;
 }
+
+
